@@ -25,7 +25,7 @@ module.exports = {
         },
         {
           test: /\.(sa|sc|c)ss$/,
-          use: ["style-loader", "css-loader"]
+          use: ['style-loader', 'css-loader', 'sass-loader'],
         },
         // Now we apply rule for images
         {
